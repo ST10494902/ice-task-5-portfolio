@@ -1,0 +1,94 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Header Section */
+header {
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Sections */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #2d3e50;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Portfolio Projects */
+.project {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    color: #2d89ef;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
